@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Atlas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+    body{background:#f8f9fa;color:#333}
+
+    nav{display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:#111;color:#fff;position:sticky;top:0}
+    nav a{color:#fff;margin-left:15px;text-decoration:none}
+
+    .hero{height:90vh;background:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center}
+    .hero h1{font-size:3rem;background:rgba(0,0,0,0.5);padding:10px 20px;border-radius:10px}
+
+    section{padding:60px 20px;max-width:1100px;margin:auto}
+
+    .menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:#fff;padding:20px;border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,0.1);text-align:center}
+    .card img{width:100%;height:150px;object-fit:cover;border-radius:10px}
+
+    .btn{display:inline-block;margin-top:20px;padding:10px 20px;background:#25D366;color:#fff;border-radius:30px;text-decoration:none}
+
+    iframe{width:100%;height:300px;border:0;margin-top:20px;border-radius:10px}
+
+    footer{background:#111;color:#fff;text-align:center;padding:20px;margin-top:40px}
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>Café Atlas</h2>
+  <div>
+    <a href="#">Accueil</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Café Atlas ☕</h1>
+  <p>Ambiance - Qualité - Service</p>
+  <a class="btn" href="https://wa.me/212600000000">Commander sur WhatsApp</a>
+</header>
+
+<section id="menu">
+  <h2>Notre Menu</h2>
+  <div class="menu">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+      <h3>Espresso</h3>
+      <p>10dh</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+      <h3>Cappuccino</h3>
+      <p>15dh</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87">
+      <h3>Jus Orange</h3>
+      <p>12dh</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604908176997-4316b51b4c6b">
+      <h3>Sandwich</h3>
+      <p>20dh</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📞 0600000000</p>
+  <p>📍 Beni Mellal</p>
+
+  <iframe src="https://maps.google.com/maps?q=Beni%20Mellal&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
+
+<footer>
+  <p>© 2026 Café Atlas - Site professionnel</p>
+</footer>
+
+</body>
+</html>
+
